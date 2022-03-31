@@ -22,6 +22,10 @@
   background-color: #6DAFFE;
 }
 
+.content .card-footer button {
+  margin-right: 10px;
+}
+
 table th {
   line-height: 20px;
   max-width: 80px;
