@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | User Profile</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="../../dist/scss/custom.css">
+
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../../index3.html" class="brand-link">
+      <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">AdminLTE 3</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-header">EXAMPLES</li>
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-book"></i>
+              <p>
+                Pages
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../examples/profile.html" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Profile</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>EtherWan</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">eRMA</a></li>
+              <li class="breadcrumb-item"><a href="#">維修資訊</a></li>
+              <li class="breadcrumb-item"><a href="#">狀態追蹤</a></li>
+              <li class="breadcrumb-item active">申請</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- /.col -->
+          <div class="col-md-12">
+            <div class="callout callout-info">
+              <!-- title row -->
+              <div class="row">
+                <div class="col-12">
+                  <h4 class="custom_primary">
+                    <i class="fas fa-globe"></i> RT22030029-1
+                    <small class="float-right">Date: 2022/04/01</small>
+                  </h4>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-6">
+                  <b>Company:</b> 益網科技股份有限公司<br>
+                  <b>Customer ID:</b> BA483D<br>
+                  <b>Basic Address:</b> 新北市新店區寶橋路235巷6弄2號8樓<br>
+                  <b>Tel:</b> 886-2-6629-8986<br>
+                  <b>Model:</b> IES5100 5*10/100TX DIN RAIL<br>
+                  <b>Part No.:</b> G-ST42005-00-1-A<br>
+                  <b>Problem:</b> OOXX<br>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-6 invoice-col">
+                  <b>Basic contact:</b> 系統管理員<br>
+                  <b>E-mail:</b> elwin.tsai@etherwan.com.tw<br>
+                  <b>Fax:</b> 886-2-6629-7758<br>
+                  <b>S/N:</b> G140224649<br>
+                  <b>Warranty:</b> 2019/1/<br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- /.col -->
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header p-2">
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a class="nav-link active" href="#step1" data-toggle="tab">申請</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#step2" data-toggle="tab">審核</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#step3" data-toggle="tab">收件</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#step4" data-toggle="tab">評估</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#step5" data-toggle="tab">報價</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#step6" data-toggle="tab">維修</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#step7" data-toggle="tab">品檢</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#step8" data-toggle="tab">出貨</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#step9" data-toggle="tab">留言</a></li>
+                </ul>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                <div class="tab-content">
+                  <!-- /.申請 -->
+                  <div class="active tab-pane" id="step1">
+                    <!-- 進度條 -->
+                    <section class="design-process-section my-3">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-8 mx-auto">
+                            <!-- design process steps-->
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                            </div>
+                            <!-- Nav tabs -->
+                            <ul class="nav process-model" role="tablist">
+                              <li role="presentation" class="process-item active"><a href="#">
+                                <small>2022/3/31</small>
+                                  <div><span>Request</span></div>
+                                  <p>系統管理員</p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item active"><a href="#">
+                                  <small>2022/3/31</small>
+                                  <div><span>Approval</span></div>
+                                  <p>系統管理員</p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item waiting_item"><a href="#">
+                                  <small>&nbsp;</small>
+                                  <div><span>Waiting Receive</span></div>
+                                  <p></p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item"><a href="#">
+                                  <small>&nbsp;</small>
+                                  <div><span>Repair</span></div>
+                                  <p></p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item"><a href="#">
+                                  <small>&nbsp;</small>
+                                  <div><span>Check</span></div>
+                                  <p></p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item"><a href="#">
+                                  <small>&nbsp;</small>
+                                  <div><span>Ship</span></div>
+                                  <p></p>
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- end design process steps-->
+                    
+                          </div>
+                        </div>
+                    </section>
+
+                    <!-- 這是內容 -->
+                    <div class="row">
+                      <!-- /.col -->
+                      <div class="col-6">
+                        <div class="table-responsive">
+                          <table class="table table-striped">
+                            <tr>
+                              <th style="width:30%">Ship contact:</th>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th>RMA No:</th>
+                              <td>XXXXX-XXXX-X</td>
+                            </tr>
+                            <tr>
+                              <th>報修單類型:</th>
+                              <td>RMA</td>
+                            </tr>
+                            <tr>
+                              <th>保固日:</th>
+                              <td>2019/1/31</td>
+                            </tr>
+                            <tr>
+                              <th>客戶 RMA 號碼:</th>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th>零件序號:</th>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th>附加檔案:</th>
+                              <td></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- /.col -->
+                      <div class="col-6">
+                        <div class="table-responsive">
+                          <table class="table table-striped">
+                            <tr>
+                              <th style="width:30%">Ship Address:</th>
+                              <td>新北市新店區寶橋路235巷6弄2號8樓</td>
+                            </tr>
+                            <tr>
+                              <th>序號:</th>
+                              <td>G140224649</td>
+                            </tr>
+                            <tr>
+                              <th>品名:</th>
+                              <td>IES5100 5*10/100TX DIN RAIL</td>
+                            </tr>
+                            <tr>
+                              <th>保固類型:</th>
+                              <td>Out_of_Warranty</td>
+                            </tr>
+                            <tr>
+                              <th>客戶序號:</th>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th>零件品名:</th>
+                              <td></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- /.col -->
+                      <div class="col-12">
+                        <div class="table-responsive">
+                          <table class="table">
+                            <tr>
+                              <th style="width:15%">問題描述:</th>
+                              <td>OOXX</td>
+                            </tr>
+                            <tr>
+                              <th>申請說明:</th>
+                              <td></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- /.col -->
+                    </div>
+                    <!-- this row will not appear when printing -->
+                    <div class="row no-print">
+                      <div class="col-12">
+                        <a href="invoice-print.html" rel="noopener" target="_blank" class="btn print_btn"><i class="fas fa-print"></i>
+                          列印 RMA</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.審核 -->
+                  <div class="tab-pane" id="step2">
+                    <!-- 進度條 -->
+                    <section class="design-process-section my-3">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-8 mx-auto">
+                            <!-- design process steps-->
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                            </div>
+                            <!-- Nav tabs -->
+                            <ul class="nav process-model" role="tablist">
+                              <li role="presentation" class="process-item active"><a href="#">
+                                  <small>2022/3/31</small>
+                                  <div><span>Request</span></div>
+                                  <p>系統管理員</p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item active"><a href="#">
+                                  <small>2022/3/31</small>
+                                  <div><span>Approval</span></div>
+                                  <p>系統管理員</p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item waiting_item"><a href="#">
+                                  <small>&nbsp;</small>
+                                  <div><span>Waiting Receive</span></div>
+                                  <p></p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item"><a href="#">
+                                  <small>&nbsp;</small>
+                                  <div><span>Repair</span></div>
+                                  <p></p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item"><a href="#">
+                                  <small>&nbsp;</small>
+                                  <div><span>Check</span></div>
+                                  <p></p>
+                                </a>
+                              </li>
+                              <li role="presentation" class="process-item"><a href="#">
+                                  <small>&nbsp;</small>
+                                  <div><span>Ship</span></div>
+                                  <p></p>
+                                </a>
+                              </li>
+                            </ul>
+                            <!-- end design process steps-->
+                  
+                          </div>
+                        </div>
+                    </section>
+                  
+                    <!-- 這是內容 -->
+                    <div class="row">
+                      <!-- /.col -->
+                      <div class="col-6">
+                        <div class="table-responsive">
+                          <table class="table table-striped">
+                            <tr>
+                              <th style="width:30%">RMA No:</th>
+                              <td>RT22030029-1</td>
+                            </tr>
+                            <tr>
+                              <th>保固類型:</th>
+                              <td>Out_of_Warranty</td>
+                            </tr>
+                            <tr>
+                              <th>審核備註:</th>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th>審核人員:</th>
+                              <td>BA483D</td>
+                            </tr>
+                            <tr>
+                              <th>審核狀態:</th>
+                              <td>Pass</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- /.col -->
+                      <div class="col-6">
+                        <div class="table-responsive">
+                          <table class="table table-striped">
+                            <tr>
+                              <th>序號:</th>
+                              <td>G140224649</td>
+                            </tr>
+                            <tr>
+                              <th>報修單類型:</th>
+                              <td>RMA</td>
+                            </tr>
+                            <tr>
+                              <th>&nbsp;</th>
+                              <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <th>審核日期:</th>
+                              <td>2022/3/31</td>
+                            </tr>
+                            <tr>
+                              <th>附加檔案:</th>
+                              <td></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- /.col -->
+                    </div>
+                    <!-- this row will not appear when printing -->
+                    <div class="row no-print">
+                      <div class="col-12">
+                        <a href="invoice-print.html" rel="noopener" target="_blank" class="btn print_btn"><i class="fas fa-print"></i>
+                          列印 RMA</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.tab-pane -->
+
+                  <div class="tab-pane" id="step3">
+                    <form class="form-horizontal">
+                      <div class="form-group row">
+                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputName2" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputName2" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputExperience" class="col-sm-2 col-form-label">Experience</label>
+                        <div class="col-sm-10">
+                          <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputSkills" class="col-sm-2 col-form-label">Skills</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="offset-sm-2 col-sm-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="offset-sm-2 col-sm-10">
+                          <button type="submit" class="btn btn-danger">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+              </div><!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.2.0
+    </div>
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+</body>
+</html>
