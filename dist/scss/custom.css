@@ -123,4 +123,8 @@ table td {
     -webkit-print-color-adjust: exact;
   }
 }
+
+.search_Table th, .search_Table td, .show_Table th, .show_Table td {
+  white-space: nowrap;
+}
 /*# sourceMappingURL=custom.css.map */
