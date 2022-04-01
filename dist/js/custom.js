@@ -1,3 +1,21 @@
+$(function () {
+    $(".search_Table").DataTable({
+        "responsive": true,
+        "lengthChange": false,
+         "autoWidth": false,
+         "ordering": true,
+         "info": false
+    });
+    $(".show_Table").DataTable({
+        "responsive": false,
+        "lengthChange": false,
+         "autoWidth": false,
+         "searching":false,
+         "paging": false,
+         "info": false
+    });
+});
+
 const data = [
     {
         "id":"1",
