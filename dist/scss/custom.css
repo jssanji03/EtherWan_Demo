@@ -143,15 +143,19 @@ table td i {
   border-left: 5px solid #88157b;
 }
 
-.main-footer {
+.button-footer {
   padding: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.687);
 }
 
-.main-footer button {
+.button-footer button {
   margin-right: 10px;
 }
 
-.main-footer button i {
+.button-footer button i {
   margin-right: 6px;
 }
 /*# sourceMappingURL=custom.css.map */
