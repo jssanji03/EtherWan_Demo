@@ -152,3 +152,44 @@
         }
     }
 }
+
+.product{
+    .x_scroll{
+        overflow-x: scroll;
+    }
+    .table_fix_col_166{
+        margin-left: 130px;
+        thead{
+            td:first-child{
+                width: 130px;
+                height: 125px;
+                position: absolute;
+                left: 15px;
+                top: auto;
+                background-color: rgb(233, 244, 255);
+                color: #437FC7;
+            }
+            td:not(:first-child){
+                // min-width: 130px;
+                border-right: 1px solid #ccc;
+                text-align: center;
+            }
+        }
+        tbody{
+            td:first-child{
+                width: 130px;
+                position: absolute;
+                left: 15px;
+                top: auto;
+                background-color: rgb(233, 244, 255);
+                color: #437FC7;
+                text-align: end;
+            }
+            td:not(:first-child) {
+                // min-width: 130px;
+                border-right: 1px solid #ccc;
+                text-align: center;
+            }
+        }
+    }
+}

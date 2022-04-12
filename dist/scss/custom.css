@@ -158,4 +158,42 @@ table td i {
 .button-footer button i {
   margin-right: 6px;
 }
+
+.product .x_scroll {
+  overflow-x: scroll;
+}
+
+.product .table_fix_col_166 {
+  margin-left: 130px;
+}
+
+.product .table_fix_col_166 thead td:first-child {
+  width: 130px;
+  height: 125px;
+  position: absolute;
+  left: 15px;
+  top: auto;
+  background-color: #e9f4ff;
+  color: #437FC7;
+}
+
+.product .table_fix_col_166 thead td:not(:first-child) {
+  border-right: 1px solid #ccc;
+  text-align: center;
+}
+
+.product .table_fix_col_166 tbody td:first-child {
+  width: 130px;
+  position: absolute;
+  left: 15px;
+  top: auto;
+  background-color: #e9f4ff;
+  color: #437FC7;
+  text-align: end;
+}
+
+.product .table_fix_col_166 tbody td:not(:first-child) {
+  border-right: 1px solid #ccc;
+  text-align: center;
+}
 /*# sourceMappingURL=custom.css.map */
