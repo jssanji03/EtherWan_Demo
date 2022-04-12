@@ -104,7 +104,7 @@ function showItem(index) {
                     <td><input class="form-control form-control-sm" type="text" value="${data[index].重量}"></td>
                     <td><input class="form-control form-control-sm" type="text" value="${data[index].箱子尺寸}"></td>
                     <td>${data[index].申請人}</td>
-                    <td><i class="far fa-trash-alt text-danger"></i></td>
+                    <td><i class="fas fa-eye text-muted"></i><i class="fas fa-edit text-info"></i><i class="far fa-trash-alt text-danger"></i></td>
                 </tr>
                 `
                 const tbody = document.querySelector('.js-tableList');
