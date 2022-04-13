@@ -9,19 +9,14 @@
 <img src="https://github.com/jssanji03/EtherWan_Demo/blob/main/ex2.png" width="500">
 2. 新增scss 資料夾。
 
-## import
-profile.html 
-invoice-print.html
-兩隻檔案皆須引入。
+將整個scss複製過去
 
-2. 新增 js 檔。
+## shipping.html
+shipping.html 須引入 custom.js。
+
 <img src="https://github.com/jssanji03/EtherWan_Demo/blob/main/ex3.png" width="500">
 
-
-```css
-<link rel="stylesheet" href="../../dist/scss/custom.css">
-```
-## 出貨單新增
+js import
 ```js
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
@@ -33,3 +28,17 @@ invoice-print.html
 ```
 
 
+## 每隻Html
+css import
+```css
+<link rel="stylesheet" href="../../dist/scss/custom.css">
+```
+js import
+```js
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+```
