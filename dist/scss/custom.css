@@ -165,6 +165,8 @@ table td i {
 
 .product .table_fix_col table thead td:first-child {
   width: 180px;
+  background-color: #e9f4ff;
+  color: #437FC7;
 }
 
 .product .table_fix_col table thead td:not(:first-child) {
@@ -173,6 +175,8 @@ table td i {
 }
 
 .product .table_fix_col table tbody th {
+  background-color: #e9f4ff;
+  color: #437FC7;
   text-align: end;
 }
 

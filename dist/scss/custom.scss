@@ -163,12 +163,12 @@
             border: 1px solid #ccc;
             thead{
                 td:first-child{
-                    width: 180px;
                     // position: absolute;
                     // left: 15px;
                     // top: auto;
-                    // background-color: rgb(233, 244, 255);
-                    // color: #437FC7;
+                    width: 180px;
+                    background-color: rgb(233, 244, 255);
+                    color: #437FC7;
                 }
                 td:not(:first-child){
                     border-right: 1px solid #ccc;
@@ -177,12 +177,11 @@
             }
             tbody{
                 th{
-                    // width: 130px;
                     // position: absolute;
                     // left: 15px;
                     // top: auto;
-                    // background-color: rgb(233, 244, 255);
-                    // color: #437FC7;
+                    background-color: rgb(233, 244, 255);
+                    color: #437FC7;
                     text-align: end;
                 }
                 td:not(:first-child) {
