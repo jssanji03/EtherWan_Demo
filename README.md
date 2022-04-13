@@ -2,7 +2,7 @@
 
 ## 使用方式
 <img src="https://github.com/jssanji03/EtherWan_Demo/blob/main/ex1.png" width="500">
-1. 將 **content-wrapper** 此區塊的 section 使用即可。
+1. 將 **content-wrapper** 此區塊的 全部內容複製過去 即可。
 
 
 
