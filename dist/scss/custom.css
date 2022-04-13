@@ -196,6 +196,7 @@ table td i {
 }
 
 .product .table_fix_col table tbody td:not(:first-child) {
+  height: 45px;
   border-right: 1px solid #ccc;
   text-align: center;
 }
