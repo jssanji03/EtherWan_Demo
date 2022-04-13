@@ -154,21 +154,21 @@
 }
 
 .product{
-    .x_scroll{
-        overflow-x: scroll;
-    }
+    // .x_scroll{
+    //     overflow-x: scroll;
+    // }
     .table_fix_col{
-        margin-left: 130px;
+        // margin-left: 130px;
         table{
             border: 1px solid #ccc;
             thead{
                 td:first-child{
-                    width: 130px;
-                    position: absolute;
-                    left: 15px;
-                    top: auto;
-                    background-color: rgb(233, 244, 255);
-                    color: #437FC7;
+                    width: 180px;
+                    // position: absolute;
+                    // left: 15px;
+                    // top: auto;
+                    // background-color: rgb(233, 244, 255);
+                    // color: #437FC7;
                 }
                 td:not(:first-child){
                     border-right: 1px solid #ccc;
@@ -176,15 +176,14 @@
                 }
             }
             tbody{
-                td:first-child{
-                    width: 130px;
-                    position: absolute;
-                    left: 15px;
-                    top: auto;
-                    background-color: rgb(233, 244, 255);
-                    color: #437FC7;
+                th{
+                    // width: 130px;
+                    // position: absolute;
+                    // left: 15px;
+                    // top: auto;
+                    // background-color: rgb(233, 244, 255);
+                    // color: #437FC7;
                     text-align: end;
-                    
                 }
                 td:not(:first-child) {
                     height: 45px;

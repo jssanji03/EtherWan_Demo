@@ -159,25 +159,12 @@ table td i {
   margin-right: 6px;
 }
 
-.product .x_scroll {
-  overflow-x: scroll;
-}
-
-.product .table_fix_col {
-  margin-left: 130px;
-}
-
 .product .table_fix_col table {
   border: 1px solid #ccc;
 }
 
 .product .table_fix_col table thead td:first-child {
-  width: 130px;
-  position: absolute;
-  left: 15px;
-  top: auto;
-  background-color: #e9f4ff;
-  color: #437FC7;
+  width: 180px;
 }
 
 .product .table_fix_col table thead td:not(:first-child) {
@@ -185,13 +172,7 @@ table td i {
   text-align: center;
 }
 
-.product .table_fix_col table tbody td:first-child {
-  width: 130px;
-  position: absolute;
-  left: 15px;
-  top: auto;
-  background-color: #e9f4ff;
-  color: #437FC7;
+.product .table_fix_col table tbody th {
   text-align: end;
 }
 
