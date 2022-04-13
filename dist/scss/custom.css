@@ -163,13 +163,16 @@ table td i {
   overflow-x: scroll;
 }
 
-.product .table_fix_col_166 {
+.product .table_fix_col {
   margin-left: 130px;
 }
 
-.product .table_fix_col_166 thead td:first-child {
+.product .table_fix_col table {
+  border: 1px solid #ccc;
+}
+
+.product .table_fix_col table thead td:first-child {
   width: 130px;
-  height: 125px;
   position: absolute;
   left: 15px;
   top: auto;
@@ -177,12 +180,12 @@ table td i {
   color: #437FC7;
 }
 
-.product .table_fix_col_166 thead td:not(:first-child) {
+.product .table_fix_col table thead td:not(:first-child) {
   border-right: 1px solid #ccc;
   text-align: center;
 }
 
-.product .table_fix_col_166 tbody td:first-child {
+.product .table_fix_col table tbody td:first-child {
   width: 130px;
   position: absolute;
   left: 15px;
@@ -192,7 +195,7 @@ table td i {
   text-align: end;
 }
 
-.product .table_fix_col_166 tbody td:not(:first-child) {
+.product .table_fix_col table tbody td:not(:first-child) {
   border-right: 1px solid #ccc;
   text-align: center;
 }
